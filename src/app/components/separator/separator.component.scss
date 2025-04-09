@@ -1,0 +1,46 @@
+:host {
+    width: 100%;
+    display: flex;
+
+    position: relative;
+
+    margin: 3rem 0;
+}
+
+#line {
+    display: flex;
+    width: 100%;
+    background-color: #e1e1e1;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+button {
+    border: none;
+    border-radius: 100%;
+    width: 6rem;    
+    height: 6rem;
+    background-color: #844ef6;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+
+    background-image: url('../../../assets/images/icon-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: black;
+    }
+
+    &:focus {
+        outline: black solid 2px;
+    }
+}

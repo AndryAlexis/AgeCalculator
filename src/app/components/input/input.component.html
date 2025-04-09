@@ -1,0 +1,13 @@
+<input
+    type="text"
+    [value]="value"
+    (input)="handleInput($event)"
+    [formControl]="control"
+    placeholder="{{ placeholder }}"
+/>
+<span id="label">
+    {{ label }}
+</span>
+<span class="error-message" [ngClass]="{'hidden': !(control.invalid && control.touched)}">
+    {{ 'Invalid input' }}
+</span>

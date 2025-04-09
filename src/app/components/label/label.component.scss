@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+    gap: .5rem;
+
+    font-family: 'Poppins', sans-serif;
+	font-style: italic;
+	font-weight: bolder;
+    font-size: 6rem;
+}
+
+span {
+    align-self: flex-end;
+}
+
+#number {
+    color: #844ef6;
+}

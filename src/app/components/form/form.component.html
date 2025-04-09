@@ -1,0 +1,6 @@
+<div>
+    <app-input label="Day" placeholder="DD" [control]="this.form.controls['days']"/>
+    <app-input label="Month" placeholder="MM" [control]="this.form.controls['months']"/>
+    <app-input label="Year" placeholder="YYYY" [control]="this.form.controls['years']"/>
+</div>
+<app-separator (onSubmit)="submitForm()"/>
