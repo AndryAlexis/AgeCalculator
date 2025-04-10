@@ -60,3 +60,18 @@ input {
     opacity: 0;
     pointer-events: none;
 }
+
+@media (width <= 46.875rem) {
+    #label {
+        font-size: 0.8rem;
+    }
+
+    input {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .error-message {
+        font-size: 0.8rem;
+    }
+}

@@ -20,7 +20,7 @@ main {
 
 @media (width <= 46.875rem) {
     main {
-        width: clamp(23rem, 50vw, 45rem);
+        width: clamp(17rem, 50vw, 45rem);
         padding: 2rem;
         gap: 2rem;
     }
