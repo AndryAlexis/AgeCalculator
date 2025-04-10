@@ -4,7 +4,7 @@ This project is an **Angular-based Age Calculator** application that allows user
 
 ---
 
-![Age Calculator Screenshot](./assets/images/preview.jpg)
+![Age Calculator Screenshot](./src/assets/images/preview.jpg)
 
 ---
 
