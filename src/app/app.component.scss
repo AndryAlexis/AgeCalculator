@@ -5,11 +5,23 @@
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     padding: 3rem;
     border-radius: 2rem 2rem 10rem 2rem;
     box-shadow: 0px 0px 10px #e1e1e1;
 
     background-color: white;
 
-    width: 45rem;
+    width: clamp(34.3rem, 50vw, 45rem);
+
+    margin: 1rem;
+}
+
+@media (width <= 46.875rem) {
+    main {
+        width: clamp(23rem, 50vw, 45rem);
+        padding: 2rem;
+        gap: 2rem;
+    }
 }

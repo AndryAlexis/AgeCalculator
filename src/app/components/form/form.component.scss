@@ -6,4 +6,16 @@
 div {
     display: flex;
     gap: 2rem;
+
+    max-width: 600px;
+}
+
+@media (width <= 46.875rem) {
+    :host {
+        gap: 2rem;
+    }
+
+    div {
+        gap: .7rem;
+    }
 }
