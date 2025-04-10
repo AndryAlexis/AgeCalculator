@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './label.component.scss'
 })
 export class LabelComponent {
-  number : number = -1;
+  @Input() number : number = -1;
   @Input() label : string = 'text';
 }

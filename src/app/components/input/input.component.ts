@@ -1,5 +1,5 @@
 import { Component, Input, forwardRef } from '@angular/core';
-import { ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { ControlValueAccessor, Form, FormControl, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -20,6 +20,7 @@ export class InputComponent implements ControlValueAccessor {
   @Input() label: string = 'Title';
   @Input() placeholder: string = 'Enter text';
   @Input() control!: FormControl;
+  @Input() messageError: string = 'This field is required';
 
   value: string = '';
 

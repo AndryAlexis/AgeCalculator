@@ -9,5 +9,5 @@
     {{ label }}
 </span>
 <span class="error-message" [ngClass]="{'hidden': !(control.invalid && control.touched)}">
-    {{ 'Invalid input' }}
+    {{ messageError }}
 </span>

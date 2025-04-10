@@ -1,4 +1,4 @@
 <main>
-  <app-form/>
-  <app-result/>
+  <app-form (submitFormEvent)="handleFormSubmit($event)" />
+  <app-result [result]="result"/>
 </main>
